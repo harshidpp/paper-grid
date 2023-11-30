@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+}
+.warp{
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+}
+.navbar1{
+    height: 2rem;
+    border-bottom: 1px solid;
+   
+}
+.navbar1 p{
+    font-size: 13px;
+}
+.navbar2{
+    height: 5rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.hellllo{
+    font-size: 2rem;
+}
+.hello{
+    display: none;
+    font-size: 3rem;
+}
+.logo{
+    height: 100%;
+    margin-left: 4rem;
+   
+}
+.logo img{
+    width: 7rem !important;
+    margin-left: -3rem;
+}
+.text-co{
+    height: 2rem;
+    width: 28vw;
+    margin-left: 3rem;
+}
+.text-co p{
+    color: white;
+  
+}
+.text-co1{
+   color: gray !important;
+}
+.text-co1:hover{
+    text-decoration: underline;
+    color: white !important;
+}
+.banner{
+   flex-wrap: wrap;
+   gap: 3rem;
+}
+.card1{
+    min-width: 26vw;
+    max-width: 26vw;
+}
+.card1 img{
+    width: 100%;
+}
+.menu{
+    height: 120vh;
+    width: 40rem;
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    
+   
+}
+.menu1{
+   font-size: 20px;
+   margin-left: 2rem;
+   margin-top: 8rem;
+   row-gap: 3rem;
+   
+}
+.menu2{
+    font-size: 2rem;
+    margin-top: 8rem;
+    margin-left: 1rem;
+}
+.icone{
+    font-size: 1.5rem;
+}
+.icone1{
+    font-size: 1.5rem;
+}
+.banner2{
+    width: 100%;
+    z-index: 0;
+}
+.image1{
+    min-width: 20rem;
+    max-width: 20rem;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 0 !important ;
+}
+button:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 0 1.5px black,0 0 0;
+}
+.image2{
+    height: 30rem;
+    width: 20rem;
+    transform: translateY(10rem)
+}
+.footer{
+    width: 100%;
+    height: 20rem;
+    border-bottom: 1px solid;
+}
+.footertext {
+    transform: translateY(2rem);
+}
+.p1{
+    font-size: 18px;
+
+}
+.p2{
+    color: grey;
+}
+.footer i{
+    font-size: 20px;
+}
+.footer1{
+
+    height: 7rem;
+    overflow: hidden;
+}
+.footer1 p{
+    color: gray;
+    transform: translateY(3rem);
+    font-size: 12px;
+    margin-left: 5rem;
+
+}
+
+@media (max-width:763px){
+    .banner{
+        gap:1vw;
+     }
+     .image1{
+        min-width: 95vw !important;
+        max-width: 95vw !important;
+    } 
+    .image2{
+        height: 40rem;
+        width: 40rem;
+        transform: translateY(0rem);
+        text-align: center;
+    }
+    .footer{
+        margin-top: -25rem;
+    }
+    .footer1 p{
+        margin-left: 0;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:978px) {
+    .card1{
+        min-width: 40vw;
+        max-width: 40vw;
+    }
+    .image1{
+        min-width: 60vw;
+        max-width: 60vw;
+    }
+} 
+@media (max-width:1026px){
+
+       .image1{
+        min-width: 40vw;
+        max-width: 40vw;
+    }
+}
